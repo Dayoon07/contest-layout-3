@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="/css/format.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/aside.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/sign.css">
+</head>
+<body>
+    <header>
+        <div id="h-center">
+    
+            <div class="h-left">
+                <a href="/main.html"><img src="/img/logo.png" alt="로고입니다."></a>
+                <!-- <div class="serach">
+                    <form action="#" method="get" autocomplete="off">
+                        <input type="search" id="search" name="search" placeholder="검색" title="검색어를 입력하세요." role="search">
+                        <button type="submit">검색하기</button>
+                        <select name="select-category" id="select-category">
+                            <option value="최신순">최신순</option>
+                            <option value="옛날순">옛날순</option>
+                            <option value="추천순">추천순</option>
+                        </select>
+                    </form>
+                </div> -->
+            </div>
+    
+            <div class="h-right">
+                <!-- <a href="/sign/sign-in.html"><button>로그인</button></a> -->
+                <div class="iii">
+                    <div class="ii"></div>
+                    <div class="ii"></div>
+                    <div class="ii"></div>
+                </div>
+            </div>
+    
+        </div>
+    </header>
+
+    <aside>
+        <a href="/main.html"><img src="/img/logo.png" alt="로고입니다."></a>
+    
+        <hr>
+        <button id="hide-side">사이드 바 닫기</button>
+        <button>로그아웃</button>
+        <hr>
+        
+        <div class="user-information">
+            <div class="user-i-flex">
+                <a href="#"><img src="/img/anonymous.png" alt="모든 계정의 프로필 사진은 익명으로 되어 있습니다."></a>
+                <a href="#"><p>user id</p></a>
+            </div>
+        </div><hr>
+        
+        <nav>
+            <ul class="list">
+                <li><a href="/sign/sign-in.html">로그인</a></li>
+                <li><a href="/sign/sign-up.html">회원가입</a></li>
+                <li><a href="/board/notice-board.html">게시판 바로가기</a></li>
+                <li><a href="/board/announcement.html">공지사항 바로가기</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section>
+        
+        <div class="signPage-logo-div">
+            <img src="/img/logo.png" alt="로고입니다.">
+        </div>
+        <div class="form-div">
+            <form action="#" method="post" autocomplete="off">
+                <p>이름</p>
+                <input type="text" id="name" name="name" placeholder="이름" autocomplete="off" required>
+                <p>아이디</p>
+                <input type="text" id="id" name="id" placeholder="아이디" autocomplete="off" required>
+                <p>이메일</p>
+                <input type="email" id="email" name="email" placeholder="이메일" autocomplete="off" required>
+                <p>비밀번호</p>
+                <input type="password" id="password" name="password" placeholder="비밀번호" autocomplete="off" required>
+                
+                <div class="school-ing">
+                    <p>재학중인 학교</p>
+                    <select name="select-school" id="select-school">
+                        <option value="school">근명고등학교</option>
+                        <option value="school">안양공업고등학교</option>
+                        <option value="school">안양문화고등학교</option>
+                        <option value="school">평촌경영고등학교</option>
+                        <option value="school">안양예술고등학교</option>
+                    </select>
+                </div><br>
+                <button type="submit">회원가입</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="f-center">
+    
+            <div class="f-left">
+                <a href="#"><img src="/img/logo.png" alt="로고입니다."></a>
+                <h2>CopyRight</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt deserunt tempore id veritatis quasi hic consequatur,
+                    eius ipsum fugiat, vero totam alias recusandae distinctio!
+                    Perspiciatis voluptatum dolorum ex labore aut.
+                </p>
+            </div>
+    
+            <div class="f-right">
+                <ul class="main">
+                    <li>
+                        <p>list 1</p>
+                        <ul class="sub">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>list 2</p>
+                        <ul class="sub">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>list 3</p>
+                        <ul class="sub">
+                            <li><a href="#">list 1</a></li>
+                            <li><a href="#">list 2</a></li>
+                            <li><a href="#">list 3</a></li>
+                            <li><a href="#">list 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="/js/side-bar.js"></script>
+</body>
+</html>
